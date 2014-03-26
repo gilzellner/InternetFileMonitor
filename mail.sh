@@ -1,0 +1,1 @@
+date | mail -s "Sha1 Hash for https://dl.dropboxusercontent.com/u/28848111/Trusteertest/file2 has changed" null
