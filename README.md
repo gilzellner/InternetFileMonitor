@@ -7,6 +7,15 @@ Context:
 
 We need to constantly monitor some important public files/pages to make sure their content doesn't change (unless we meant it to).
 
+usage:
+
+unzip,
+chmod a+x ./mail.sh
+
+modify FileWithNamesToMonitor.txt, config.properties
+run: java -jar FileChangeMonitor.jar
+
+
 Mission:
 
 The program reads a list of URLs (http or https) from a configuration file. Some URLs are hosted by multiple servers, and we want to check all of them. So the configuration file has pairs of URL+IP. IP can be * (which means perform normal DNS query to obtain the IP). 
