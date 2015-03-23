@@ -44,3 +44,6 @@ Implementation requirements:
 - Use any language, or combination of languages. You may use any unix tools.
 - The program should write a log of its operations to a log file.
 - The check should run every 10 minutes.
+
+
+This was a home challenge from Trusteer in 2014
